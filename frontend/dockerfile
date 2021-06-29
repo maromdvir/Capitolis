@@ -1,0 +1,13 @@
+FROM node:12
+
+WORKDIR /backend/frontend
+
+COPY tsconfig.json ./
+COPY package.json ./
+COPY package-lock.json ./
+
+RUN npm install
+
+COPY . ./
+
+CMD ["npm", "start"]
