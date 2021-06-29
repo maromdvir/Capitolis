@@ -7,7 +7,7 @@
 
 #Dev Commands     
   frontend - npm start     
-  backendend - npm run dev  
+  backend - npm run dev  
 
 #Hosts     
   frontend - localhost:8080    
